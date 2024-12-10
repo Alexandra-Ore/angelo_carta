@@ -1,0 +1,55 @@
+/* Archivo: styles.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #f7cac9, #92a8d1);
+}
+
+.carta {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 500px;
+}
+
+h1 {
+  color: #d64292;
+}
+
+p {
+  color: #333;
+  line-height: 1.5;
+}
+
+button {
+  padding: 10px 20px;
+  background: #d64292;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+button:hover {
+  background: #b63678;
+  transform: scale(1.1);
+}
+
+.firma {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.nombre {
+  font-size: 1.5rem;
+  color: #d64292;
+  font-weight: bold;
+}
